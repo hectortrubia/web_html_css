@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('../fuente-oswald/Oswald-Light.ttf') format("truetype");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald-Regular';
+    color: #1b1c20;
+}
+
+
+/* NAVEGADOR*/
+
+.nav-container {
+
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.logohtml {
+
+    height: 120px;
+    margin-left: 40px;
+
+}
+
+.links-container {
+
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div-link{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+.link {
+
+    font-size:25px;
+    height: 120px;
+    width: 200px;
+    text-align:center ;
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+
+
+}
+
+
+.link:hover {
+
+    text-align:center ;
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: black;
+
+
+}
+
+
+/*logos redes*/
+
+.redes-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.fa {
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 4px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    opacity: 0.8;
+}
+
+
+.fa:hover {
+    scale: 1.25;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    -ms-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    opacity: 1;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #1A8CD8;
+    color: white;
+}
+
+.fa-youtube {
+    background: #FF0000;
+    color: white;
+}
+
+
+.fa-instagram{
+    background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    }
+
+
+
+
+
