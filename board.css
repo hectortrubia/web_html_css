@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Oswald-Regular';
+  src: url('../fuente-oswald/Oswald-Light.ttf') format("truetype");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald-Regular';
+}
+
+
+.change-pieces {
+
+  font-size: 20px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+
+}
+
+.chess-out-container {
+
+  margin: 100px;
+  height: 675px;
+  width: 675px;
+  background-color: #000000;
+  border-color: solid black 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.chess-in-container {
+
+  height: 600px;
+  width: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.row-white{
+
+  display: flex;
+  flex-direction: row;
+}
+
+
+.row-black{
+
+  display: flex;
+  flex-direction: row;
+}
+
+.white-cell {
+
+  width: 75px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.black-cell {
+
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(97, 92, 92);
+}
+
+.icon{
+
+  color: #000000;
+  font-size: 50px;
+
+}
+
+
+
+
+/* 
+------------------------ */
