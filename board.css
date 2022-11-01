@@ -12,17 +12,33 @@
 }
 
 
+/* CHESS BOARD --------------*/
+
 .change-pieces {
 
   font-size: 20px;
   margin-left: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  display: inline;
+
+}
+
+.visually-hidden {
+
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 
 }
 
 .chess-out-container {
 
-  margin: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 100px;
   height: 675px;
   width: 675px;
   background-color: #000000;
@@ -31,6 +47,11 @@
   align-items: center;
   justify-content: center;
 
+}
+
+#toggle:checked~.chess-out-container {
+  transform: rotate(180deg);
+  transition: 1s ease-in-out;
 }
 
 
@@ -45,14 +66,15 @@
 
 }
 
-.row-white{
+
+.row-white {
 
   display: flex;
   flex-direction: row;
 }
 
 
-.row-black{
+.row-black {
 
   display: flex;
   flex-direction: row;
@@ -78,7 +100,7 @@
   background-color: rgb(97, 92, 92);
 }
 
-.icon{
+.icon {
 
   color: #000000;
   font-size: 50px;
@@ -86,7 +108,8 @@
 }
 
 
+#toggle:checked~.chess-out-container>div .icon {
+  transform: rotate(180deg);
+  transition: 1s ease-in-out;
 
-
-/* 
------------------------- */
+}
