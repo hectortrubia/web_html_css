@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./board.css" />
+  <link rel="stylesheet" href="./contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+  <!-- NAVEGADOR -->
+
+
+  <nav class="nav-container">
+
+    <img src="././media/html5css3.svg" alt="" class="logohtml">
+
+    <div class="links-container">
+      <a class="link" href="index.html">HOME</a>
+      <a class="link" href="board.html">BOARD</a>
+      <a class="link" href="contact.html">CONTACT</a>
+    </div>
+
+    <div class="redes-container">
+      <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+    </div>
+  </nav>
+
+
+  <!-- --------------- -->
+
+
+
+  <!-- FROMULARIO -->
+
+
+  <div class="imagen-de-fondo-del-formulario">
+
+    <form class="general-formulario__contenedor" action="https://www.google.com" method="GET">
+
+      <h1 class="titulo-formulario">Formulario de contacto</h1>
+
+      <h2 class="subtitulo-formulario-una-linea">Gracias por tomarte el tiempo para contactar con nosotros y ayudarnos a
+        mejorar</h2>
+      <h2 class="subtitulo-formulario-doslineas">Gracias por tomarte el tiempo para contactar con nosotros <br>y
+        ayudarnos a mejorar</h2>
+
+      <div class="tres-primeros-inputs">
+
+        <label for="NOMBRE">
+          <h3 class="formulario__titulos-celdas-tres-primeros">Nombre</h3>
+        </label>
+        <input class="formulario__inputs-texto" type="text" name="Nombre" value="" ID="NOMBRE"
+          placeholder="Introduce tu nombre" required>
+
+        <label for="EMAIL">
+          <h3 class="formulario__titulos-celdas-tres-primeros">Email</h3>
+        </label>
+        <input class="formulario__inputs-texto" type="email" name="Email" id="EMAIL" placeholder="Introduce tu Email"
+          required>
+
+        <label for="EDAD">
+          <h3 class="formulario__titulos-celdas-tres-primeros">Edad</h3>
+        </label>
+        <input class="formulario__inputs-texto" type="number" name="Edad" id="EDAD"
+          placeholder="Introduce tu edad, debes ser mayor de edad" min="18" required>
+
+        <label for="ROL">
+          <h3 class="formulario__titulos-celdas-tres-primeros">¿Qué rol describe mejor tu situación actual?</h3>
+        </label>
+        <select class="formulario__inputs-texto" id="ROl" name="Rol-actual" required>
+          <option value="" selected>Selecciona tu rol actual</option>
+          <option>Estudiante</option>
+          <option>Trabajo a tiempo completo</option>
+          <option>Freelance</option>
+          <option>Buscando trabajo</option>
+        </select>
+
+        <label for="">
+          <h3 class="formulario__titulos-celdas-tres-primeros">¿Recomendarías esta página a un desconocido?</h3>
+        </label>
+        <div class="contenedor--radio">
+          <label class="reco-textos" for="si"><input class="botones-radio" type="radio" name="recomendar" id="si"
+              value="definitivamente si" checked>Definitivamente Si</label>
+          <label class="reco-textos" for="quizas"><input class="botones-radio" type="radio" name="recomendar"
+              value="quizas" id="quizas">Quizás</label>
+          <label class="reco-textos" for="No-estoy-seguro"><input class="botones-radio" type="radio" name="recomendar"
+              value="no estoy seguro" id="No-estoy-seguro">No estoy seguro</label>
+        </div>
+
+        <label for="">
+          <h3 class="formulario__titulos-reco-mobile">¿Qué recomendaciones te gustaría recibir?<br>(Marca todas las que
+            apliquen)</h3>
+        </label>
+        <label for="">
+          <h3 class="formulario__titulos-reco-desk">¿Qué recomendaciones te gustaría recibir? (Marca todas las que
+            apliquen)</h3>
+        </label>
+        <div class="contenedor--recomendaciones-de-todos">
+          <label class="textos-check"><input class="checkbox" type="checkbox" name="frontend">Proyectos
+            Front-end</label>
+          <label class="textos-check"><input class="checkbox" type="checkbox" name="backend">Proyectos Back-end</label>
+          <label class="textos-check"><input class="checkbox" type="checkbox" name="social">Social Media
+            (Marketing)</label>
+          <label class="textos-check"><input class="checkbox" type="checkbox" name="videojuegos">Desarrollo de
+            videojuegos</label>
+          <label class="textos-check"><input class="checkbox" type="checkbox" name="tutoriales">Tutoriales de
+            UX/UI</label>
+          <label class="textos-check"><input class="checkbox" type="checkbox" name="otros">Otros</label>
+        </div>
+
+        <label for="FECHA">
+          <h3 class="formulario__titulos-celdas-tres-primeros">¿Cuando prefererías que te contactasemos?</h3>
+        </label>
+        <input class="formulario__inputs-texto" type="date" name="contactar" min="2022-01-01" required>
+
+        <label for="COMENTARIOS">
+          <h3 class="formulario__titulos-celdas-tres-primeros">¿Otros comentarios o sugerencias?</h3>
+        </label>
+        <textarea class="formulario__inputs-texto" name="comentarios" id="COMENTARIOS"
+          placeholder="Introduzca sus comentarios..."></textarea>
+
+        <button class="formulario__input-enviar" name="enviar" id="enviar" type="submit">Enviar</button>
+
+
+      </div>
+
+    </form>
+  </div>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-container">
+      <p class="footer-text">Web responsive en HTML y CSS</p>
+    </div>
+
+  </footer>
+
+  <!-- ----------- -->
+
+
+
+
+
+</body>
+
+</html>

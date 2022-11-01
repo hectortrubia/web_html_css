@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'oswald';
+    src: url(./fuente-oswald/Oswald-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*FORM */
+
+.imagen-de-fondo-del-formulario {
+
+    background-image: linear-gradient(90deg, rgba(8, 8, 8, 0.6) 0%, rgba(5, 5, 5, 0.5) 100%), url(fondo-formulario.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.general-formulario__contenedor {
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.titulo-formulario {
+
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-top: 20px;
+
+}
+
+.subtitulo-formulario-una-linea {
+
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'oswald';
+    font-style: italic;
+}
+
+.subtitulo-formulario-doslineas {
+
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'oswald';
+    font-style: italic;
+}
+
+.tres-primeros-inputs {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'oswald';
+}
+
+
+.formulario__titulos-celdas-tres-primeros {
+
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.formulario__inputs-texto {
+
+    color: #000000;
+    text-align: left;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding-left: 5px;
+    font-family: 'oswald';
+
+}
+
+.contenedor--radio {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+
+.reco-textos {
+
+    font-size: 1rem;
+    margin-right: 15px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+input.botones-radio {
+
+    margin-right: 10px;
+}
+
+
+.formulario__titulos-reco-mobile {
+
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.formulario__titulos-reco-desk {
+
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contenedor--recomendaciones-de-todos {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    color: #ffffff;
+}
+
+.textos-check {
+
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+
+.checkbox {
+
+    margin-right: 10px;
+}
+
+textarea[placeholder] {
+
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: 'oswald';
+    height: 100px;
+}
+
+
+.formulario__input-enviar {
+
+    color: #000000;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'oswald';
+
+}

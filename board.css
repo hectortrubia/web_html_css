@@ -17,7 +17,7 @@
 .change-pieces {
 
   font-size: 20px;
-  margin-left: 100px;
+  margin-left: 30%;
   margin-bottom: 20px;
   margin-top: 30px;
   display: inline;
@@ -37,7 +37,7 @@
 .chess-out-container {
 
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 30%;
   margin-bottom: 100px;
   height: 675px;
   width: 675px;
