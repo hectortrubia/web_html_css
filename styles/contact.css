@@ -14,7 +14,7 @@
 
 .imagen-de-fondo-del-formulario {
 
-    background-image: linear-gradient(90deg, rgba(8, 8, 8, 0.6) 0%, rgba(5, 5, 5, 0.5) 100%), url(fondo-formulario.jpg);
+    background-image: linear-gradient(90deg, rgba(8, 8, 8, 0.6) 0%, rgba(5, 5, 5, 0.5) 100%), url(../media/fondo-formulario.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
