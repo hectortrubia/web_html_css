@@ -5,6 +5,28 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="">
+  </script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<div id="test"></div>
+<script>
+  $(document).ready(() => {
+      $('#test').load('doesntmatter');
+  });
+</script>
+
+
+<script type="text/javascript">
+  $(document).ready(function () {
+      $('#menu_on').click(function () { // Al hacer click...
+          $('body').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
+      })
+  });
+</script>
   <title>Contacto</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="./styles/index.css" />
@@ -19,7 +41,7 @@
 <body>
 
 
-  <!-- NAVEGADOR -->
+  <!-- NAVEGADOR DESKTOP-->
 
 
   <nav class="nav-container">
@@ -43,6 +65,40 @@
 
   <!-- --------------- -->
 
+
+   <!-- NAVEGADOR MOBILE HASTA 481PX -->
+
+
+   <div id="wrapper">
+    <header id="#header">
+        <a href="#" id="menu_on">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </header>
+
+    <nav class="nav-mobile-container">
+
+        <img src="././media/html5css3.svg" alt="" class="logo-mobile-html">
+
+        <a class="link-mob" href="index.html">HOME</a>
+        <a class="link-mob" href="board.html">BOARD</a>
+        <a class="link-mob" href="contact.html">CONTACT</a>
+
+
+        <div class="redes-mobile-container">
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+        </div>
+    </nav>
+
+</div>
+
+
+<!-- --------------------------------------------- -->
 
 
   <!-- FROMULARIO -->
