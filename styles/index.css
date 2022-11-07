@@ -609,8 +609,32 @@
 
   }
 
+
   #wrapper {
-    margin: 20px;
+   
+    height: 90px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+
+  #header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  
+  .logo-mobile-header {
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 20px;
   }
 
 
@@ -620,6 +644,8 @@
     height: 20px;
     position: relative;
     z-index: 2;
+    margin-left: 20px;
+    margin-top: 10px;
   }
 
   #menu_on span {
@@ -681,6 +707,7 @@
     margin-left: 10px;
   }
 
+
   .redes-mobile-container {
 
     margin-top: 30px;
@@ -714,5 +741,15 @@
     transform: translateX(260px);
   }
 
+
+
+
+/* Video banner principal version mobile -------------------*/
+
+
+.fondovideo {
+
+  display: none
+}
 
 }
