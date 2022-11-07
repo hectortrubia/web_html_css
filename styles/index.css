@@ -163,7 +163,7 @@
 
 .videobanner {
 
-  width: 100vw;
+  width: 100%;
   position: relative;
   display: flex;
   align-items: center;
@@ -600,7 +600,13 @@
 
 --------- VERSION MOBILE HASTA 481 PX */
 
+
+
 @media only screen and (max-width: 481px) {
+
+
+
+/* NAVEGADOR---------------*/
 
 
   .nav-container {
@@ -672,7 +678,7 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    left: -100%; /* Escondemos nuestro menú con un valor negativo  */
+    left: -100%; 
     width: 100%;
     height: 560px;
     z-index: 1;
@@ -744,12 +750,162 @@
 
 
 
-/* Video banner principal version mobile -------------------*/
+/*  --------------*/
+
+
+
+/* BANNER PRINCIPAL VIDEO ------------------- */
 
 
 .fondovideo {
 
-  display: none
+  width: 100%;
 }
+
+.videobanner {
+
+  width: 100%;
+}
+
+.textoscontainer {
+
+  width: 100%;
+}
+
+.textoh1 {
+
+  font-size: 16px;
+}
+
+.textoh2 {
+
+  font-size: 30px;
+}
+
+/* ------------------- */
+
+
+/* CARDS LUGARES DEL MUNDO ------------------- */
+
+
+.titulolugares {
+
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+
+
+.cards-container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.cards-container>div {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+}
+
+.flip-card-side-left:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-center:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+
+.flip-card-side-right:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.mountain {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  background-size: cover;
+  position: absolute;
+}
+
+.textomountain {
+  position: relative;
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 60px;
+  text-shadow: 10px 7px 3px #1b1c20;
+
+}
+
+
+.textolake {
+
+  position: relative;
+  color: #ffffff;
+  rotate: 180deg;
+
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 20px;
+
+}
+
+.flip-card-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1b1c20;
+  color: #ffffff;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+}
+
+
+
+/*  --------------*/
+
+
+/*  --------------*/
+
 
 }
