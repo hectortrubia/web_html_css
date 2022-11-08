@@ -548,6 +548,14 @@
 
 }
 
+.text-pro-gold {
+
+  font-size: 16px;
+  color: #6d6f7a;
+  margin-left: 9px;
+
+}
+
 .button {
 
   background-color: #6fcf5a;
@@ -563,7 +571,25 @@
 
 }
 
+.button-gold {
+
+  background-color: #6fcf5a;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+  margin-top: 40px;
+  height: 50px;
+  width: 130px;
+  box-shadow: 3px 3px 6px #575a64;
+  font-size: 16px;
+
+}
+
 .button:hover {
+  box-shadow: none;
+}
+
+.button-gold:hover {
   box-shadow: none;
 }
 
@@ -598,7 +624,9 @@
 
 
 
---------- VERSION MOBILE HASTA 481 PX */
+
+
+--------- VERSION MOBILE HASTA 481 PX --------------------------- */
 
 
 
@@ -606,7 +634,7 @@
 
 
 
-/* NAVEGADOR---------------*/
+/* NAVEGADOR MOBILE ---------------*/
 
 
   .nav-container {
@@ -754,7 +782,7 @@
 
 
 
-/* BANNER PRINCIPAL VIDEO ------------------- */
+/* BANNER PRINCIPAL VIDEO MOBILE ------------------- */
 
 
 .fondovideo {
@@ -785,7 +813,7 @@
 /* ------------------- */
 
 
-/* CARDS LUGARES DEL MUNDO ------------------- */
+/* CARDS LUGARES DEL MUNDO MOBILE ------------------- */
 
 
 .titulolugares {
@@ -820,92 +848,321 @@
 
 
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 1.5s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-
-}
-
-.flip-card-side-left:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
+/*  --------------*/
 
 
-.flip-card-center:hover .flip-card-inner {
-  transform: rotateX(180deg);
-}
+
+/* PRICING MOBILE ------------------- */
 
 
-.flip-card-side-right:hover .flip-card-inner {
-  transform: rotateY(-180deg);
-}
+.pricing-container {
 
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border-radius: 20px;
-}
-
-.mountain {
-  width: 300px;
-  height: 200px;
-  border-radius: 20px;
-  background-size: cover;
-  position: absolute;
-}
-
-.textomountain {
-  position: relative;
-  font-size: 50px;
-  color: #ffffff;
-  margin-top: 60px;
-  text-shadow: 10px 7px 3px #1b1c20;
-
-}
-
-
-.textolake {
-
-  position: relative;
-  color: #ffffff;
-  rotate: 180deg;
-
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-  border-radius: 20px;
-
-}
-
-.flip-card-back {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #1b1c20;
+  background-color: #F0F4F7;
+  width: 100%;
+  height: 1200px;
+  margin-top: 50px;
+
+}
+
+.titulo-pricing {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  color: #6d6f7a;
+  margin-top: 40px;
+
+}
+
+.subtitulo-pricing {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  color: #90939e;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+.three-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 1070px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+}
+
+.card-pricing-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  width: 290px;
+  height: 330px;
+  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 10px;
+
+}
+
+
+.card-pricing-container:hover {
+
+  scale: 1.08;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.blue-circle-container {
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #c50535;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  margin-right: 200px;
+  rotate: -15deg;
+ 
+}
+
+.blue-circle-container:hover {
+
+  transform: rotate(360deg);
+  transition: 0.5s ease;
+  background-color: #c50535;
+
+}
+
+.blue-circle-text {
+
+  color: #FFFFFF;
+  font-size: 8px;
+
+}
+
+
+.titulo-packege {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
+  color: #6d6f7a;
+  margin-top: 6px;
+
+}
+
+.price-container {
+
+  height: 60px;
+  width: 220px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 0px;
+  border-bottom: 0px;
+
+}
+
+
+.subprice-container {
+
+  display: flex;
+  margin: 0px;
+  height: 60px;
+
+}
+
+.dollar {
+
+  font-size: 14px;
+  margin-top: 10px;
+  color: #6d6f7a;
+
+}
+
+
+.nineteen {
+
+  font-size: 40px;
+  color: #6d6f7a;
+
+}
+
+.month {
+
+  font-size: 12px;
+  margin-top: 34px;
+  color: #6d6f7a;
+
+}
+
+
+.list-container {
+
+  height: 100px;
+  width: 220px;
+  border-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+
+}
+
+.circle-list {
+
+  height: 80px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+
+}
+
+.circle-container {
+
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.circle {
+
+  height: 16px;
+  width: 16px;
+  background-color: #6fcf5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+}
+
+.tic {
+
+  font-size: 14px;
+  color: white;
+  font-family: wingdings;
+
+}
+
+.text-list {
+
+  height: 80px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+
+}
+
+.text-container {
+
+  height: 30px;
+  width: 150px;
+  margin-top: 0px;
+  margin-left: 4px;
+
+}
+
+
+.text-pro {
+
+  font-size: 15px;
+  color: #6d6f7a;
+  margin-left: 4px;
+
+}
+
+.text-pro-gold {
+
+  font-size: 15px;
+  color: #6d6f7a;
+  margin-bottom: 2px;
+
+}
+
+.button {
+
+  background-color: #6fcf5a;
+  border-radius: 4px;
   color: #ffffff;
-  transform: rotateY(180deg);
-  border-radius: 20px;
+  border: none;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  height: 35px;
+  width: 150px;
+  box-shadow: 3px 3px 6px #575a64;
+  font-size: 14px;
+
+
+}
+
+.button-gold {
+
+  background-color: #6fcf5a;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+  margin-top: 50px;
+  height: 35px;
+  width: 150px;
+  box-shadow: 3px 3px 6px #575a64;
+  font-size: 14px;
+
 }
 
 
 
-/*  --------------*/
+/*-----------------*/
 
 
-/*  --------------*/
+/* FOOTER MOBILE ------------------- */
 
+
+.footer-container {
+
+  background-color: #1b1c20;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-text {
+
+  color: #ffff;
+  font-size: 16px;
+
+}
+
+
+/* -----------------------*/
 
 }
