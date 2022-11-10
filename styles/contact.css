@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'oswald';
-    src: url(./fuente-oswald/Oswald-Regular.ttf);
+    src: url('../fonts/fuente-oswald/Oswald-Light.ttf');
 }
 
 * {
