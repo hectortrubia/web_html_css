@@ -17,6 +17,8 @@ Desarrollar una web responsive para los tamaños mobile (hasta 481 px) y desktop
   - Formularios.
   
   
+  
+  
 Recursos:
 
 Para el desarrollo de la práctica he seguido un briefing elaborado por el profesor (briefing.pdf).
