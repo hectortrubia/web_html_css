@@ -2,6 +2,8 @@
 
 Proyecto realizado en el bootcamp para practicar HTML y CSS.
 
+https://html-css-project-hector.netlify.app
+
 
 Objetivos:
 
@@ -26,5 +28,3 @@ Recursos:
 fusionando finalmente todo el trabajo de cada una de ellas en la rama Develop.
 
 - Para el despliegue de la web he utilizado la plataforma Netlify.
-
-    https://html-css-project-hector.netlify.app
